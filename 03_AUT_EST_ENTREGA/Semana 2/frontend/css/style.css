@@ -8,7 +8,7 @@
 }
 body
 {
-    background: lightblue;
+    background: rgb(175, 178, 179);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,7 +29,7 @@ body
  .container .leftSide
  {
      position: relative;
-     background: #2D31FA;
+     background: black;
      padding: 40px;
  }
 .profileText
@@ -39,14 +39,14 @@ body
     flex-direction: column;
     align-items: center;
     padding-bottom: 20px;
-    border-bottom: 1px solid rgba(255,255,255,0.2);
+    border-bottom: 1px solid rgba(255,255,255,255);
 }
 .profileText .imgBx
 {
     position: relative;
     width: 200px;
     height: 200px;
-    border-radius: 20%;
+    border-radius: 25%;
     overflow: hidden;
 }
 .profileText .imgBx img
@@ -75,6 +75,7 @@ body
     text-align: center;
     font-weight: 600;
     line-height: 1em;
+    color: white;
 }
 .contactInfo
 {
@@ -83,6 +84,7 @@ body
     text-align: center;
     font-weight: 600;
     line-height: 1.3em;
+    color: white;
 }
 .education
 {
@@ -91,6 +93,7 @@ body
     text-align: center;
     font-weight: 600;
     line-height: 1.3em;
+    color: white;
 }
  .container .rightSide
  {
