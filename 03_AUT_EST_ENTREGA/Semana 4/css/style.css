@@ -34,7 +34,7 @@
 .text {
     font-size: large;
     position: relative;
-    text-align: center;
+    text-align: justify center;
 }
 
 .hyphenate {
