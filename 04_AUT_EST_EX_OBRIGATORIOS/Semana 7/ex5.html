@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="ex5.js"></script>
+    <title>Exercício 5</title>
+</head>
+
+<body class="body">
+    <div class="cabecalho ">
+        <div class="subAlunos offset-3 col-6">
+            <input id="inputAlunos" placeholder="Número de alunos">
+            <button id="submeterNumAlunos" type="button" onclick="criarLista()">Submeter</button>
+        </div>
+    </div>
+    <div class="notas">
+        <div id="loopProva" class="listaNotas col-6">
+
+        </div>
+        <div id="loopTrabalho" class="listaNotas col-6">
+
+        </div>
+
+    </div>
+    <div class="listaNotas">
+        <button id="calcular" type="button" onclick="calc()">Calcular médias</button>
+        <p1 id="aparecer"></p1>
+    </div>
+
+</body>
+
+</html>

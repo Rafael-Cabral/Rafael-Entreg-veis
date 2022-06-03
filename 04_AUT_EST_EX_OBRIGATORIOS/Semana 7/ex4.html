@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 4</title>
+    <script src="ex4.js"></script>
+    <style>
+        .box {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-top: 100px;
+        }
+
+        .inputBox {
+            margin-left: 10%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <input id="pessoas" placeholder="Número de pessoas">
+
+        <select name="periodo" id="periodo">
+            <option value="diurno">Diurno</option>
+            <option value="noturno">Noturno</option>
+        </select>
+
+        <button id="verificar" class="inputBox" type="button" onclick="precoAereo()">Buscar preço</button>
+    </div>
+    <div>
+        <p1 id="show" class="box">
+
+        </p1>
+    </div>
+</body>
+
+</html>
