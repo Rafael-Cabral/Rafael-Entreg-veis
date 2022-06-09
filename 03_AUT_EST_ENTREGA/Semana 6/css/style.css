@@ -52,3 +52,17 @@
     width: 1000px;
     height: 50px;
 }
+.dbCurriculo{
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+}
+input::placeholder{
+    color: white;
+}
+.backgrey{
+    width: 200%;
+    height: 200%;
+    background-color: rgb(155, 155, 155); 
+    color: aliceblue;
+}
