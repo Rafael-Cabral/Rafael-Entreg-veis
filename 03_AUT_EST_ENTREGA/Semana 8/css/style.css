@@ -1,0 +1,68 @@
+.home {
+    background: rgb(187, 187, 187);
+}
+
+.imgBx {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: auto;
+    border-radius: 50%;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.img {
+    position: relative;
+    width: 300px;
+    border-radius: 50%;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.title {
+    position: relative;
+    text-align: center;
+}
+
+.subtitle {
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+}
+
+.text {
+    font-size: large;
+    position: relative;
+    text-align: justify center;
+}
+
+.hyphenate {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+
+.bottom {
+    margin-bottom: 100px;
+}
+.input{
+    width: 1000px;
+    height: 50px;
+}
+.dbCurriculo{
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+}
+input::placeholder{
+    color: white;
+}
+.backgrey{
+    width: 200%;
+    height: 200%;
+    background-color: rgb(155, 155, 155); 
+    color: aliceblue;
+}
